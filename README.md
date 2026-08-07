@@ -20,19 +20,19 @@ the filename shown in its Window menu for installed dockable panels.
 
 ## Installation
 
-1. Download the ZIP for the product you want from its GitHub release.
+1. Download the named `.jsx` file for the product you want from its GitHub release.
 2. Quit After Effects.
-3. Copy the desired `.jsx`/`.JSX` files and `RaselerkajUpdater.jsxinc` into the
-   After Effects `Scripts/ScriptUI Panels` folder.
-4. Replace the older files, then restart After Effects.
+3. Copy that one file into the After Effects `Scripts/ScriptUI Panels` folder.
+4. Replace the older product file, then restart After Effects.
 
-Keep `RaselerkajUpdater.jsxinc` beside the scripts. It checks the public text
-manifest at most once every 24 hours, never installs code automatically, and
-only opens the GitHub Releases page when the user chooses to update.
+The public product file already contains the update notifier. No companion
+`.jsxinc` file is required. It checks the public text manifest at most once
+every 24 hours, never installs code automatically, and only opens that
+product's exact GitHub release when the user chooses to update.
 
 ## Release rule
 
 Whenever a script changes, increase that script's embedded version and update
-its version and release tag in `update-manifest.txt` in the same commit. Publish
-one product-specific GitHub release with a ZIP containing only that script,
-`RaselerkajUpdater.jsxinc`, and this README. Do not bundle unrelated products.
+its version and release tag in `update-manifest.txt` in the same commit. Run
+`node tools/build-self-contained.js`, then publish the matching file from
+`dist/` as the only required product download. Do not bundle unrelated products.
