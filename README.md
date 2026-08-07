@@ -26,9 +26,10 @@ the filename shown in its Window menu for installed dockable panels.
 4. Replace the older product file, then restart After Effects.
 
 The public product file already contains the update notifier. No companion
-`.jsxinc` file is required. It checks the public text manifest at most once
-every 24 hours, never installs code automatically, and only opens that
-product's exact GitHub release when the user chooses to update.
+`.jsxinc` file is required. It checks the public text manifest once per product
+per After Effects session, never installs code automatically, and only opens
+that product's exact GitHub release when the user chooses to update. Choosing
+**Remind Me Later** suppresses that product's notice for 24 hours.
 
 ## Release rule
 
