@@ -1,10 +1,10 @@
 # Format: SCRIPT_ID|VERSION|PRODUCT_RELEASE_TAG
 # Keep versions in MAJOR.MINOR.PATCH format.
-Aligner|1.0.1|Aligner-v1.0.1
-RKBAR|1.0.1|RKBAR-v1.0.1
-RKREATE|1.0.1|RKREATE-v1.0.1
-RKTYPE|1.0.1|RKTYPE-v1.0.1
-rExpression|1.0.1|rExpression-v1.0.1
-RLauncher|1.0.1|RLauncher-v1.0.1
-RLayer|1.0.1|RLayer-v1.0.1
-rTime|1.0.1|rTime-v1.0.1
+Aligner|1.0.2|Aligner-v1.0.2
+RKBAR|1.0.2|RKBAR-v1.0.2
+RKREATE|1.0.2|RKREATE-v1.0.2
+RKTYPE|1.0.2|RKTYPE-v1.0.2
+rExpression|1.0.2|rExpression-v1.0.2
+RLauncher|1.0.2|RLauncher-v1.0.2
+RLayer|1.0.2|RLayer-v1.0.2
+rTime|1.0.2|rTime-v1.0.2
