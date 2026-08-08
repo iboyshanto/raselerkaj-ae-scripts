@@ -1,6 +1,6 @@
 # Format: SCRIPT_ID|VERSION|PRODUCT_RELEASE_TAG
 # Keep versions in MAJOR.MINOR.PATCH format.
-Aligner|1.0.3|Aligner-v1.0.3
+Aligner|1.0.4|Aligner-v1.0.4
 RKBAR|1.0.5|RKBAR-v1.0.5
 RKREATE|1.0.3|RKREATE-v1.0.3
 RKTYPE|1.0.3|RKTYPE-v1.0.3
