@@ -5,6 +5,6 @@ RKBAR|1.0.6|RKBAR-v1.0.6
 RKREATE|1.0.3|RKREATE-v1.0.3
 RKTYPE|1.0.3|RKTYPE-v1.0.3
 rExpression|1.0.3|rExpression-v1.0.3
-RLauncher|1.0.3|RLauncher-v1.0.3
+RLauncher|1.0.4|RLauncher-v1.0.4
 RLayer|1.0.3|RLayer-v1.0.3
 rTime|1.0.3|rTime-v1.0.3
