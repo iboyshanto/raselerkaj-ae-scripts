@@ -3,3 +3,16 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+
+# Public distribution repository: never commit plaintext source or build tools.
+/*.jsx
+/*.JSX
+/*.jsxinc
+/tools/
+/dist/*.jsx
+/dist/*.zip
+/PRODUCTION_AUDIT.md
+/RELEASE_GUIDE.md
+*.aep
+*.aepx
+*.ffx
