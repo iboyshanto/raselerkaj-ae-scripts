@@ -1,9 +1,8 @@
 # Raselerkaj After Effects Scripts
 
-Production-focused Adobe After Effects scripts by Rasel, maintained at
-`github.com/iboyshanto/raselerkaj-ae-scripts`.
+Production-focused Adobe After Effects tools by Rasel.
 
-## Included scripts
+## Products
 
 - Aligner
 - RKBAR
@@ -14,26 +13,19 @@ Production-focused Adobe After Effects scripts by Rasel, maintained at
 - RLayer
 - rTime
 
-The panel name is defined inside each script. Renaming a `.jsx` file does not
-change the title used by its floating ScriptUI palette. After Effects controls
-the filename shown in its Window menu for installed dockable panels.
+## Download and installation
 
-## Installation
+1. Open this repository's **Releases** page.
+2. Open the release for the product you want.
+3. Download that product's individual `.jsxbin` file.
+4. Quit After Effects.
+5. Replace the older product file in the After Effects `Scripts/ScriptUI Panels` folder.
+6. Restart After Effects.
 
-1. Download the named `.jsx` file for the product you want from its GitHub release.
-2. Quit After Effects.
-3. Copy that one file into the After Effects `Scripts/ScriptUI Panels` folder.
-4. Replace the older product file, then restart After Effects.
+Each product is self-contained. Users never need to install a separate updater file.
 
-The public product file already contains the update notifier. No companion
-`.jsxinc` file is required. It checks the public text manifest once per product
-per After Effects session, never installs code automatically, and only opens
-that product's exact GitHub release when the user chooses to update. Choosing
-**Remind Me Later** suppresses that product's notice for 24 hours.
+## Updates
 
-## Release rule
+Installed products check the public `update-manifest.txt` file and can open the matching product release page when a newer version is available. Updating is always manual; the scripts never download or execute replacement code automatically.
 
-Whenever a script changes, increase that script's embedded version and update
-its version and release tag in `update-manifest.txt` in the same commit. Run
-`node tools/build-self-contained.js`, then publish the matching file from
-`dist/` as the only required product download. Do not bundle unrelated products.
+This public repository contains encrypted distribution builds and update metadata. Development source is maintained privately.
