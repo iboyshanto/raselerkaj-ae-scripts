@@ -2,7 +2,7 @@
 # Keep versions in MAJOR.MINOR.PATCH format.
 Aligner|1.0.5|Aligner-v1.0.5
 RKBAR|1.0.8|RKBAR-v1.0.8
-RKREATE|1.0.5|RKREATE-v1.0.5
+RKREATE|1.0.6|RKREATE-v1.0.6
 RKTYPE|1.0.4|RKTYPE-v1.0.4
 rExpression|1.0.3|rExpression-v1.0.3
 RLauncher|1.0.4|RLauncher-v1.0.4
