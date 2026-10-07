@@ -7,4 +7,4 @@ RKTYPE|1.0.4|RKTYPE-v1.0.4
 rExpression|1.0.3|rExpression-v1.0.3
 RLauncher|1.0.4|RLauncher-v1.0.4
 RLayer|1.0.6|RLayer-v1.0.6
-rTime|1.0.4|rTime-v1.0.4
+rTime|1.0.5|rTime-v1.0.5
