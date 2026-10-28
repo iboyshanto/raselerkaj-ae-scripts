@@ -1,39 +1,44 @@
 # Raselerkaj After Effects Scripts
 
-Modern ScriptUI tools by Rasel, released together on October 9, 2026.
+## Important update — October 28, 2026
 
-## Download the full suite
+**Please update all eight tools together.** Earlier modern builds could fail to open right-click menus on native ScriptUI buttons. This release fixes menu activation and includes the latest rLayer tools.
 
-[Download all eight modern tools](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/download/RKBAR-v1.3.0/Raselerkaj-Modern-Tools-2026-10-09.zip). The same suite ZIP is attached to every product release. Each release also contains its individual `.jsxbin` download.
+[Download the complete updated suite](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/download/Modern-Tools-2026-10-28/Raselerkaj-Modern-Tools-2026-10-28.zip) · [Release notes and checksums](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Modern-Tools-2026-10-28)
 
-| Tool | Version | Release |
+### What changed
+
+- All eight tools: titled **Related actions** menus open from right-clicks, with compact icon rows and hover feedback.
+- rLayer: **Alt-click Focus** isolates and solos the selected layers. Click again to restore previous timeline and solo states.
+- rLayer: **Select Shape Layers → Select color properties** selects nested fill, stroke, gradient Colors and effect color controls without changing their values. AE-hidden properties that reject selection are skipped.
+- RKBAR: Shift-click naming for cropped and trimmed precompositions is included.
+
+| Tool | Version | Individual release |
 | --- | --- | --- |
-| Aligner | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Aligner-v1.1.0) |
-| RKBAR | 1.3.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKBAR-v1.3.0) |
-| RKREATE | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKREATE-v1.1.0) |
-| RKTYPE | 1.2.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKTYPE-v1.2.0) |
-| rExpression | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/rExpression-v1.1.0) |
-| RLauncher | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RLauncher-v1.1.0) |
-| RLayer | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RLayer-v1.1.0) |
-| rTime | 1.1.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/rTime-v1.1.0) |
+| Aligner | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Aligner-v1.1.1) |
+| RKBAR | 1.3.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKBAR-v1.3.1) |
+| RKREATE | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKREATE-v1.1.1) |
+| RKTYPE | 1.2.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKTYPE-v1.2.1) |
+| rExpression | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/rExpression-v1.1.1) |
+| RLauncher | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RLauncher-v1.1.1) |
+| RLayer | 1.2.0 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RLayer-v1.2.0) |
+| rTime | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/rTime-v1.1.1) |
 
 ## Installation
 
-1. Back up your current scripts, then quit After Effects.
-2. Download the suite ZIP or an individual `.jsxbin` file from Releases.
-3. Copy the `.jsxbin` files into the After Effects `Scripts/ScriptUI Panels` folder. Move older `.jsx` or `.jsxbin` copies of the same products out of that folder to avoid duplicates.
-4. Restart After Effects and open the tools from **Window**. Keep your existing script, expression and preset libraries.
+1. Quit After Effects and back up your installed scripts.
+2. Extract the suite ZIP and copy the eight `.jsxbin` files into **Scripts/ScriptUI Panels**.
+3. Move older `.jsx` or duplicate `.jsxbin` versions of the same tools out of that folder. Keep existing preset, expression and script libraries.
+4. Restart After Effects and open the tools from **Window**. Restarting unloads older docked-panel code.
 
-Every tool contains its icons and updater; no separate asset folder or updater file is required. Enable **Allow Scripts to Write Files and Access Network** for update checks and file-based functions.
+Icons and the updater are embedded; no companion files are required. Enable **Allow Scripts to Write Files and Access Network** for update checks and file-based features.
 
 ## Updates
 
-Existing products use the same public `update-manifest.txt` feed. Older versions can show a notification and open the matching release page. Downloading and replacing installed files is manual; the scripts never download or execute replacements automatically. Same-version installations remain silent.
-
-The modern suite includes compact controls, high-resolution icons, right-click actions and adaptive panel layouts. It retains the existing tool engines, including the latest Aligner distribution and rTime work-area fixes and the RKType ReleaseCandidate engine.
+Existing installations use the same public `update-manifest.txt` feed. Older versions can show a notification with the important release notes and open the matching release page. Downloading and replacing files remains manual. Same-version installations remain silent.
 
 ## Validation
 
-All eight builds passed Adobe JSXBIN compilation and modern UI simulations. Updater simulations passed for macOS and Windows. Native AE UI acceptance across versions and Windows remains unverified for the full suite; older AE preset-file compatibility is not guaranteed. Checksums and an installation guide are included in the suite ZIP.
+All eight files passed Adobe JSXBIN compilation. Twelve modern automated suites and updater simulations passed. All eight current compiled builds loaded successfully in After Effects Beta 27.1x23. Right-click behavior was checked with macOS mouse events during development of the fix. rLayer passed 9 native Focus/Solo and 30 native color-selection checks. Full action coverage, older AE versions and Windows remain unverified for this release.
 
-This public repository contains protected distribution builds and update metadata. Development source is maintained privately.
+This public repository contains protected distribution builds and update metadata. Development source remains private.
