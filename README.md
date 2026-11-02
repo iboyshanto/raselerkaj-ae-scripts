@@ -1,5 +1,11 @@
 # Raselerkaj After Effects Scripts
 
+## Latest Aligner update — 1.1.2
+
+[Download Aligner 1.1.2](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Aligner-v1.1.2). Regular distributions now follow timeline order, topmost selected layer first, across all modes and gap controls. **Grid Lock and Roundabout retain their previous behavior.**
+
+The October 28 full-suite ZIP below contains Aligner 1.1.1; install this newer Aligner separately. The other suite versions remain current.
+
 ## Important update — October 28, 2026
 
 **Please update all eight tools together.** Earlier modern builds could fail to open right-click menus on native ScriptUI buttons. This release fixes menu activation and includes the latest rLayer tools.
@@ -15,7 +21,7 @@
 
 | Tool | Version | Individual release |
 | --- | --- | --- |
-| Aligner | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Aligner-v1.1.1) |
+| Aligner | 1.1.2 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/Aligner-v1.1.2) |
 | RKBAR | 1.3.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKBAR-v1.3.1) |
 | RKREATE | 1.1.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKREATE-v1.1.1) |
 | RKTYPE | 1.2.1 | [Download](https://github.com/iboyshanto/raselerkaj-ae-scripts/releases/tag/RKTYPE-v1.2.1) |
